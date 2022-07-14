@@ -1,0 +1,10 @@
+service mtk_secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+    class hal
+    user secure_element
+    group secure_element
+
+on boot && property:ro.boot.product.vendor.sku=secret
+    stop mtk_secure_element_hal_service
+
+on boot && property:ro.boot.product.vendor.sku=maltose
+    stop mtk_secure_element_hal_service
