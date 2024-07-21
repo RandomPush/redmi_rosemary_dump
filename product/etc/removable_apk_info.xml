@@ -1,0 +1,21 @@
+<string-array name="removable_apk_list">
+    <item>cn.wps.xiaomi.abroad.lite</item>
+    <item>com.duokan.phone.remotecontroller</item>
+    <item>com.mi.global.shop</item>
+    <item>com.microsoft.skydrive</item>
+    <item>com.miui.android.fashiongallery</item>
+    <item>com.miui.mediaeditor</item>
+    <item>com.opera.browser.afin</item>
+    <item>com.xiaomi.smarthome</item>
+</string-array>
+
+<string-array name="removable_apk_path_list">
+    <item>/data/miui/app/auto/GlobalWPSLITE/GlobalWPSLITE.apk</item>
+    <item>/data/miui/app/auto/XMRemoteController/XMRemoteController.apk</item>
+    <item>/product/data-app/MISTORE_OVERSEA/MISTORE_OVERSEA.apk</item>
+    <item>/data/miui/app/auto/MicrosoftOneDrive/MicrosoftOneDrive.apk</item>
+    <item>/product/data-app/MiGalleryLockScreenGlobalT/MiGalleryLockScreenGlobalT.apk</item>
+    <item>/data/miui/app/auto/MIMediaEditorGlobal/MIMediaEditorGlobal.apk</item>
+    <item>/data/miui/app/auto/Opera/Opera.apk</item>
+    <item>/product/data-app/SmartHome/SmartHome.apk</item>
+</string-array>
