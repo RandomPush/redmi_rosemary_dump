@@ -1,0 +1,8 @@
+system_ext/apex/com.android.vndk.v30.apex
+system_ext/priv-app/Settings/Settings.apk
+product/app/VoiceAssistAndroidT/VoiceAssistAndroidT.apk
+product/app/TrichromeLibrary64/TrichromeLibrary64.apk
+product/data-app/MIUIMusicT/MIUIMusicT.apk
+product/priv-app/MiuiCamera/MiuiCamera.apk
+product/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk
+product/priv-app/GmsCore/GmsCore.apk
