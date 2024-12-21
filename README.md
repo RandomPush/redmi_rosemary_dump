@@ -1,0 +1,14 @@
+# rosemary-user 12 SP1A.210812.016 V13.0.8.0.SKLMIXM release-keys
+- manufacturer: xiaomi
+- platform: mt6785
+- codename: rosemary
+- flavor: lineage_rosemary-userdebug
+- release: 12
+- id: SQ3A.220705.004
+- incremental: 1660661355
+- tags: release-keys
+- fingerprint: Redmi/rosemary/rosemary:12/SP1A.210812.016/V13.0.8.0.SKLMIXM:user/release-keys
+- is_ab: true
+- brand: Redmi
+- branch: rosemary-user-12-SP1A.210812.016-V13.0.8.0.SKLMIXM-release-keys
+- repo: redmi_rosemary_dump
