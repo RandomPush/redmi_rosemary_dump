@@ -1,0 +1,224 @@
+====================
+     08-21-2022
+====================
+
+====================
+     08-20-2022
+====================
+
+   * frameworks/base
+90bc9d26f006 BatteryService: Add support for oem fast charger detection
+
+====================
+     08-19-2022
+====================
+
+====================
+     08-18-2022
+====================
+
+====================
+     08-17-2022
+====================
+
+   * frameworks/av
+7396107e73 audiopolicy: Add MTK FM Radio support
+
+   * packages/modules/Wifi
+fd565b326 resurrect mWifiLinkLayerStatsSupported counter
+
+====================
+     08-16-2022
+====================
+
+   * build/make
+79bc99803 envsetup.sh: cleanup ccache echo
+
+   * frameworks/base
+268b7ef509a3 PixelPropsUtils: Update fingerprints to Android 13 August 2022 release
+
+====================
+     08-15-2022
+====================
+
+   * android
+6564675 manifest: Enable qcom vr
+
+   * bionic
+4f9d17edc libc:Enable thinLTO for note_memtag_heap_async & note_memtag_heap_sync
+316bfb85e Re-enable LTO for linker
+
+   * packages/apps/WallpaperPicker2
+7997008 Follow parent theme for navigation bar
+
+   * vendor/lineage
+6d4e03cb build: Renable GlobalThinLO & ThinLTO chache
+
+====================
+     08-14-2022
+====================
+
+   * packages/apps/Dialer
+ccc25fd31 New Crowdin updates (#14)
+
+   * packages/apps/GameSpace
+3563974 New Crowdin updates (#20)
+
+   * packages/apps/Launcher3
+06a07be9e8 New Crowdin updates (#268)
+
+   * packages/apps/Updater
+3bf8c4b New translations (#38)
+
+   * packages/apps/crDroidSettings
+a0de28f crdroid: doze: Fix handwave & proximity pulse conflict
+263d79e New Crowdin updates (#951)
+
+====================
+     08-13-2022
+====================
+
+   * build/make
+23bf608e4 Merge 'lineage-19.1' into 12.1
+
+   * libcore
+8a6cd105cf Fix a warning in OldStackTraceElementTest due to missing JNI method implementation
+824fd790c3 Relax checks in TCK tests.
+c3613d2381 Don't enable memory-mapped coverage for child zygote.
+
+   * packages/apps/Dialer
+023d6f2b7 Remove Time use.
+
+   * packages/apps/Jelly
+d1945e2 Jelly: Fix Baidu Search Suggestion Provider
+
+   * packages/apps/Messaging
+a985c5d Remove uses of Time.
+
+   * packages/apps/Settings
+95233d60ca Settings: Add a preference to battery optimization page
+5527de47ec Bluetooth: Add support for showing battery level for AirPods series
+c8806ec21d Settings: DevicePicker: Adapt to S style
+9de27d132a Fix SIM name in Network Details to show the selected SIM.
+0b1c62cd51 Fix incorrect storage calculation when SD card is inserted
+aaa0248679 Fix ExtraText lint errors
+8071361444 Crash happens if back button is pressed during "Format as Portable"
+fc9a10d0a3 Add null check for mChannel object in WifiP2Settings
+459502bad3 Crash when scanning WiFi QR code
+96c87704c2 Fix EthernetManager.addListener dependency in Tethering settings.
+7a49ce1f60 Settings: Fix NPE FC when access saved wifi p2p device after screen rotation
+e87687bd1b Settings: Fix cellular internet option Not seen after internet reset
+870a1e4cf1 Settings: Fix sometimes reset progress dialog not dismissed
+138b589674 Keep setting of "TurnOff hotspot automatically" when AP is changed
+10e041a8fe Settings: Fix WifiSettings FC when rotating screen
+
+   * system/update_engine
+93c33a67 Cleanup DAP state before installing new OTA
+a9ff870d Fix duplicate verity bug
+a6cac866 Take partition size into account when reporting progress
+941e553a Fix partition mapping bug
+
+====================
+     08-12-2022
+====================
+
+   * android
+23aa26f manifest: Track Telephony
+
+   * art
+fcb1416c28 Propagating values from if clauses to its successors
+8f22b9a8d3 For cortex-a75/a55 validate features with hwcaps.
+b0e79b65f8 Remove bad code from ComputeRelativeTimeSpec
+0bc62a1261 Make array class with erroneous component also erroneous under AOT.
+01b7a35a4c Don't cache a field if storing to it can throw.
+4ec9aada63 Fix modernize-use-using clang-tidy issues
+22b7ce2855 Fix missing "f" modifier in format statement in run-libcore-tests.py
+c1520a9b45 Remove debugging code.
+
+   * bionic
+8ba20dcf3 bionic: fix broken end atrace events
+f31441a85 Fix old python2 test issue.
+9a8410b78 Always free after getline().
+a60853400 Rewrite function definitions with identifier lists
+
+   * frameworks/av
+d6d9a6da8a Changing max SampleRate limits for raw audio decoder
+ef26e436c6 Adding null check for IResourceManagerClient in dump()
+476fb687f5 stagefright: add -P pixelformat flag for -t (thumbnail) option in stagefright
+435461285e Do not report error for playback rate/pitch of 1.0
+7de772b9aa TargetAudioEncTest: use vector instead of malloc
+72b7a09448 VideoDecTest: stop managing memory manually
+5cc060eb10 C2SoftHevcDec: Initialize mStride after first header decode
+f493a1f33d codec2: fix issue in allocating too many 8k buffers
+578edcba79 C2SoftAvcEnc: More QP bounding interface work
+41814cf564 codec2 hidl plugin samples: free native handles after they are unwrapped
+2ac9799ac0 NuPlayerDrm: explicitly use 32-bit subsample sizes
+e0e771766b Adjust the conditions for creating a duplication output to play sonification via speaker and hdmi.
+edb977e10f Modify incorrect output format in log
+5f63c354aa NdkMediaDrm: send provision event with 0 data
+a8d27b05ed Updated mtp_fuzzer
+1ec7283ee9 hidl plugin sample: notify queue condition at queue
+0cd00ae3b3 Use highp to avoid float overflow in expression
+8575131f16 Codec2: vndk: lock P010 with gralloc4 mapper first
+cb426adcd7 Update language to comply with Android's inclusive language guidance
+22a26e9971 Add H264 RHP and RHP2 for WFD R2
+2f8f4bf09f Fix the issue that rtsp video with MP4V-ES/ can't be played.
+df38e4d713 Update to Dolby Vision media components
+7ef3cc5adb Mpeg4writer updates for Dolby Vision
+3841d1b700 libwriterfuzzerbase : Bug Fix
+0483f5c2ff Improve error reporting in MediaCodec
+
+   * frameworks/base
+0b290090442f Changing max SampleRate limits for raw audio decoder
+f88538c6de1e Limit the accepted length of SIM PIN to 8 digits
+b857871642f6 Updates to Dolby Vision Levels
+e9db7ad8c1fa Use `PushFilePreparer` to push files in OverlayDeviceTests
+f9825dba8f66 Use `PushFilePreparer` to push files in dex-builder-test
+388572cdb277 Have NetworkPolicyManagerService listen onLinkPropertiesChanged callback
+419cfb3fba36 Allow shell uid without checking the package name.
+c866359ab343 Fix test dependencies for AppEnumerationInternalTests
+9679567f6fb7 Exclude dumpsys from incident in dumpstate
+3ef7401fba9e identity: Fix uncompressed form encoding of P-256 EC Public Key.
+53d5b6ec5432 cleanupOrphanPA's feature framework (2/2)*
+a9065afc4639 Offer explicit 3-byte vs 4-byte modified UTF-8.
+ff0160a682ce Cache least recently used output buffer.
+169adbaa2217 Fix weak global reference overflow
+ade14d7078cf NotificationPlayer: use AUDIOFOCUS_GAIN_TRANSIENT instead of AUDIOFOCUS_GAIN in looping mode
+90f14deda55a noop - fix 'jobject -> jclass' in native jni code signature.
+91b7ace1b5e4 Extend splash screen exception list to SC-V2
+5215608773e3 Fix virtual display cannot be relased.
+7b6a7a6b9d9f PixelCopy: align with legacy GLConsumer::computeTransformMatrix
+239e3ab7ccbc Require CONFIG_HID_PLAYSTATION for DualSense key layout
+8008762dc553 Fix the problem that the turn_screen_on Activity does not draw.
+a99159391fec Fix AutofillManager NPE
+
+   * frameworks/native
+d7bbc32174 Fix spot not disappear in some case
+d3a04ae90b Update to Dolby Vision Levels
+a87badc0d6 EventHub: Prevent duplicate descriptors
+d7296750a6 Fix spot not disappear when display id changed
+df13d829f9 vulkan: respect consumer default dataspace upon PASS_THROUGH
+8c59a97623 Fix cursor not disappear immediately when the mouse device removed
+6de2ca2c7d Remove CHECKIN MEMINFO section from dumpstate
+b2fc6c2d92 libbinder: Allow vector construction from unaligned data.
+fd6ba588f1 Plumb 2 EGL surface attributes to ANGLE
+17b77f7800 Do not load keylayout if required kernel module is missing
+d69139c4ae Fix the shadow problem caused by layer parent switching
+8f5325e2ed Fix directory comparison in tryMountDataMirror
+
+   * frameworks/opt/telephony
+89d211183 Change the location of lock
+a4532f5ec Protect against NPE during RTT call sessions
+1faddc091 Add toString() to prevent IllegalAccessException.
+d48ec0877 Using overrideServiceState after applying PhysicalChannelConfigList
+80a8ddc20 Handle pending update list after SIM is powered up
+
+   * hardware/qcom-caf/sm8150/display
+265cf17e sdm: get around client compositioning for FOD pressed layer
+
+   * packages/services/Telecomm
+7008f4c0d cleanupOrphanPA's feature (1/2)*
+
+   * packages/services/Telephony
+f5f8b685b allow phone error messages from lock screen
+
