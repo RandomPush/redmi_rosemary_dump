@@ -1,0 +1,20 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=Redmi
+ro.product.bootimage.device=rosemary
+ro.product.bootimage.manufacturer=Xiaomi
+ro.product.bootimage.model=M2101K7BNY
+ro.product.bootimage.name=lineage_rosemary
+ro.bootimage.build.date=Wed Nov 27 11:35:27 IST 2024
+ro.bootimage.build.date.utc=1732687527
+ro.bootimage.build.fingerprint=Redmi/rosemary_global/rosemary:12/SP1A.210812.016/V14.0.7.0.TKLMIXM:user/release-keys
+ro.bootimage.build.id=AP3A.241105.008
+ro.bootimage.build.tags=test-keys
+ro.bootimage.build.type=userdebug
+ro.bootimage.build.version.incremental=eng.abhat
+ro.bootimage.build.version.release=15
+ro.bootimage.build.version.release_or_codename=15
+ro.bootimage.build.version.sdk=35
+# end of file

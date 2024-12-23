@@ -1,0 +1,14 @@
+# rosemary-user 12 SP1A.210812.016 V14.0.7.0.TKLMIXM release-keys
+- manufacturer: xiaomi
+- platform: mt6785
+- codename: rosemary
+- flavor: lineage_rosemary-userdebug
+- release: 15
+- id: AP3A.241105.008
+- incremental: eng.abhat
+- tags: test-keys
+- fingerprint: Redmi/rosemary_global/rosemary:12/SP1A.210812.016/V14.0.7.0.TKLMIXM:user/release-keys
+- is_ab: true
+- brand: Redmi
+- branch: rosemary-user-12-SP1A.210812.016-V14.0.7.0.TKLMIXM-release-keys
+- repo: redmi_rosemary_dump
