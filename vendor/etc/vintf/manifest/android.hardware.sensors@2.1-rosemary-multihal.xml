@@ -1,0 +1,11 @@
+<!--
+    Input:
+        device/xiaomi/rosemary/sensors/android.hardware.sensors@2.1-rosemary-multihal.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>android.hardware.sensors</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.1::ISensors/default</fqname>
+    </hal>
+</manifest>
